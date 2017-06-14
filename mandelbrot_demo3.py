@@ -86,5 +86,5 @@ if __name__=='__main__':
     print 'Time taken:', time.time()-start
     I[I==0] = 101
     img = imshow(I.T, origin='lower left')
-    img.write_png('mandel.png', noscale=True)
+    #img.write_png('mandel.png', noscale=True)
     show()
